@@ -81,19 +81,20 @@ git push origin practica2_backend
 ```
 Y así sucesivamente con `practica3_backend`, `practica4_backend`, etc.
 
-## 🔄 6️⃣ (Opcional) Fusionar las ramas con main
+## 🔄 6️⃣ Fusionar las ramas con `main`
 Cuando quieras que el contenido de una práctica aparezca directamente en la rama principal:
 
-Entra en tu repositorio en GitHub.
+1. Entra en tu repositorio en GitHub.
+2. Cambia a la rama correspondiente (`practica1_backend`, por ejemplo).
+3. Pulsa **"Compare & pull request"**.
+4. Revisa los cambios.
+5. Pulsa **"Merge pull request"** → **"Confirm merge"**.
 
-Cambia a la rama correspondiente (practica1_backend, por ejemplo).
+Esto integrará los archivos de esa práctica en la rama `main`, sin borrar la rama original.
 
-Pulsa "Compare & pull request".
-
-Revisa los cambios.
-
-Pulsa "Merge pull request" → "Confirm merge".
-
-Esto integrará los archivos de esa práctica en la rama main, sin borrar la rama original.
-
-
+## 🧹 7️⃣ (Opcional) Eliminar ramas antiguas
+Una vez fusionadas, puedes borrar ramas locales y remotas si ya no las necesitas:
+```
+git branch -d practica1_backend        # borra rama local
+git push origin --delete practica1_backend   # borra rama remota
+```
