@@ -10,4 +10,7 @@ Cada rama contendrá un proyecto diferente, manteniendo el código separado y or
 ## 🗂️ Estructura inicial
 
 Supongamos que tienes una carpeta principal que contiene varios proyectos:
-
+Practicas_BACKEND/
+├── Practica1_Backend/
+├── Practica2_backend/
+└── Practica3_backend/
