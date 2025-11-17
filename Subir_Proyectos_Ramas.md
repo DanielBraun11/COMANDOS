@@ -40,6 +40,7 @@ git remote add origin https://github.com/TU_USUARIO/Practicas_BACKEND.git
 ## 🌿 2️⃣ Crear una nueva rama para un proyecto
 
 Cada proyecto tendrá su propia rama.
+**IMPORTANTE**: Asegurate que estas en la ubicación de la carpeta donde tienes todos los proyectos y que esta vinculada al repo (Ej. Practicas_BACKEND)
 Por ejemplo, para subir la práctica 1:
 ```
 git checkout -b practica1_backend
